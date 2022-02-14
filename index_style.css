@@ -41,7 +41,7 @@ div {
 }
 
 .background-image-class {
-    background-image: url(images/musicnotes.jpg); background-repeat: no-repeat;
+    background-image: url("images/musicnotes.jpg"); background-repeat: repeat-x;
     color: white;
 }
 
