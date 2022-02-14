@@ -20,18 +20,9 @@ p {
     The background of all divs should be mistyrose.
  */
 div {
-    background-color: mistyrose;
+    background-color: darksalmon;
 }
 
-/*
-    There is one white-div in our html_sample.html, which should have white
-    font.
-
-    You can refer in Style Sheets to ids using #.
-*/
-#white-div {
-    color: white;
-}
 
 /*
     You can refer in Style Sheets to classes using the dot .
@@ -62,7 +53,7 @@ div {
     /*
         In order to see the border, you will need a border style.
      */
-    border-style: solid;
+    border-style: dotted;
     /*
         You can add a margin to all four borders. If there is only one value,
         all borders are affected You can specify in clockwise order:
@@ -95,7 +86,7 @@ a:hover {
         Remove bullet points.
     */
     list-style: none;
-    width: 500px;
+    width: 100%;
     margin: 0 auto;
     /*
         No padding.
