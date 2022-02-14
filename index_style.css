@@ -80,7 +80,7 @@ a:hover {
     Style individual list items.
 */
 .navbar li {
-    width: 33%;
+    width: 30%;
     background-color:darksalmon;
     border: 1px solid oldlace;
     /*
