@@ -95,7 +95,7 @@ a:hover {
     /*
         For navbars use background color that stands out.
     */
-    background-color: black;
+    background-color: darksalmon;
     text-align: center;
 }
 
@@ -103,9 +103,9 @@ a:hover {
     Style individual list items.
 */
 .navbar li {
-    width: 150 px;
-    background-color: #000;
-    border: 1px solid red;
+    width: 33%;
+    background-color:darksalmon;
+    border: 1px solid oldlace;
     /*
         Show the navbar elements next to each other instead of on top of each
         other.
