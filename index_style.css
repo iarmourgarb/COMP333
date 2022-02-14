@@ -1,1 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+/* this should be the font for all text on the webpage */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&display=swap');
+
+/*
+    applies imported font to all body text and makes background of the body oldlace
+*/
+body {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: oldlace;
+}
+
+/*
+    All text in paragraphs should be seagreen.
+*/
+p {
+    color:seagreen;
+}
+
+/*
+    The background of all divs should be mistyrose.
+ */
+div {
+    background-color: mistyrose;
+}
