@@ -45,29 +45,6 @@ div {
     color: white;
 }
 
-.css-box-model-class {
-    /*
-        Demonstrates the CSS Box Model
-    */
-    border-width: 2px;
-    /*
-        In order to see the border, you will need a border style.
-     */
-    border-style: dotted;
-    /*
-        You can add a margin to all four borders. If there is only one value,
-        all borders are affected You can specify in clockwise order:
-        top, right, bottom, left.
-    */
-    margin: 10px 5px 15px 25px;
-    /*
-        While margins are at the outside of the border, paddings are at the
-        inside. You can specify a single value for all four margins, but you
-        could also specify the padding individually the as for the margins.
-    */
-    padding: 50px;
-}
-
 /*
     Links can be styled with CSS as well. There are four states:
     link (original state), visited, hover, active (on click).
