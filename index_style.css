@@ -13,50 +13,51 @@ body {
     All text in paragraphs should be seagreen.
 */
 p {
-    color:seagreen;
+    color:black;
 }
 
 /*
     The background of all divs should be mistyrose.
  */
 div {
-    background-color: mistyrose;
+    background-color: #CDCDCD;
 }
 
+h1 {
+    text-align: center;
+    color:white;
+    font-size: 100px;
+    font-weight: 1000;
+    margin-bottom: 0px;
+}
 
-/*
-    You can refer in Style Sheets to classes using the dot .
-*/
-.padding-color-class {
-    /*
-        Instead of color names you can also use hexdecimal values. The lower the
-        number, the darker.
-    */
-    background-color: #000000;
-    /*
-        You can also give colors in RGB values (0 to 255). If you are expecting
-        older browsers using your site, refrain from using RGB formatting.
-    */
-    color: rgb(100, 168, 200);
+h2 {
+    text-align: center;
+    color:white;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 0px;
 }
 
 .background-image-class {
-    background-image: url("images/musicnotes.png"); background-repeat: repeat-x;
+    background-image: url("images/musicnotes.jpeg");
+    background-repeat: no-repeat;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
     color: white;
 }
 
 /*
-    Links can be styled with CSS as well. There are four states:
-    link (original state), visited, hover, active (on click).
-    For example, on hover, change the link color to green. Also, hover can be
-    applied to divs.
+    link turns black when hovered over
 */
 a:hover {
-    color:green;
+    color:black;
 }
 
 /*
-    For your custom navbar, you can specify the unorderd list style.
+    custom navbar based on style_sample
 */
 .navbar ul {
     /*
@@ -65,14 +66,8 @@ a:hover {
     list-style: none;
     width: 100%;
     margin: 0 auto;
-    /*
-        No padding.
-    */
     padding: 0;
-    /*
-        For navbars use background color that stands out.
-    */
-    background-color: darksalmon;
+    background-color: #BAD9D6;
     text-align: center;
 }
 
@@ -81,8 +76,8 @@ a:hover {
 */
 .navbar li {
     width: 30%;
-    background-color:darksalmon;
-    border: 1px solid oldlace;
+    background-color: #BAD9D6;
+    border: none;
     /*
         Show the navbar elements next to each other instead of on top of each
         other.
@@ -96,7 +91,7 @@ a:hover {
     Style links in navbar.
 */
 .navbar a {
-    color:#fff;
+    color:white;
     text-decoration: none;
 }
 
@@ -115,9 +110,10 @@ input {
     Style iframes.
 */
 iframe {
-    width:100%;
-    height:100%;
+    margin: 10px auto;
     border: dotted;
+    display: block;
+
 }
 /* code added from exercise */
 
