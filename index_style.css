@@ -20,7 +20,7 @@ p {
     The background of all divs should be mistyrose.
  */
 div {
-    background-color: #CDCDCD;
+    background-color: darkgrey;
 }
 
 h1 {
@@ -37,6 +37,35 @@ h2 {
     font-size: 40px;
     font-weight: 1000;
     margin-top: 0px;
+}
+h2 p {
+    text-align: left;
+    color:white;
+    font-size: 40px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+h3 {
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 0px;
+}
+
+h3 p {
+    text-align: left;
+    color:white;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 0px;
+}
+
+#disclaimer-div {
+    text-align: center;
+    color: black;
+    background-color: #BAD9D6;
 }
 
 .background-image-class {
@@ -114,20 +143,4 @@ iframe {
     border: dotted;
     display: block;
 
-}
-/* code added from exercise */
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: orange;
-  }
-
-.flex-container > div {
-    background-color: grey;
-    width: 200px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
 }
