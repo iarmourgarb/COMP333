@@ -128,6 +128,8 @@ table, td {
     border: 1px solid gray;
 }
 
+iframe{
+    border-radius:12px;
 input {
     /*
         Show different input on top of each other instead of next to each other.
