@@ -130,6 +130,10 @@ table, td {
 
 iframe{
     border-radius:12px;
+    margin: 10px auto;
+    border: dotted;
+    display: block;
+}
 input {
     /*
         Show different input on top of each other instead of next to each other.
@@ -140,9 +144,9 @@ input {
 /*
     Style iframes.
 */
-iframe {
+/* iframe {
     margin: 10px auto;
     border: dotted;
     display: block;
 
-}
+} */
