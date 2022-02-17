@@ -93,6 +93,10 @@ a:hover {
     color:black;
 }
 
+li a:hover {
+    color:white;
+}
+
 /*
     custom navbar based on style_sample
 */
