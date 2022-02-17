@@ -75,6 +75,7 @@ h3 p {
 }
 
 
+
 .background-image-class {
     background-image: url("images/musicnotes.jpeg");
     background-repeat: no-repeat;
@@ -136,6 +137,12 @@ li a:hover {
     text-decoration: none;
 }
 
+.boxed {
+  border: 1px solid #BAD9D6 ;
+  outline: 2px solid #BAD9D6;
+  text-align: center;
+}
+
 table, td {
     border: 1px solid gray;
 }
@@ -156,3 +163,14 @@ iframe {
     display: block;
     border-radius: 12px;
 }
+
+.flex-container {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    background-color: darkgrey;
+    border: dotted;
+    border-color:black;
+    justify-content: center;
+    margin:auto
+  }
